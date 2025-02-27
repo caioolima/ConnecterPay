@@ -61,7 +61,7 @@ const SimulationPDF = ({ formData }: SimulationPDFProps) => {
               <Text style={styles.cell}>{item.valorParcelaDivida}</Text>
               <Text style={styles.cell}>{item.numeroTotalParcelas}</Text>
               <Text style={styles.cell}>{item.numeroParcelasPagas}</Text>
-              <Text style={styles.cell}>{item.valorCalculado}</Text>
+              <Text style={styles.cell}>R${item.valorCalculado}</Text>
             </View>
           ))}
         </View>
